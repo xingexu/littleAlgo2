@@ -1,0 +1,26 @@
+discounts = [["summer10",0.1],
+["welcome",0.15],
+["refer20",0.2],
+["loyalty25",0.25]]
+
+boolean
+
+file = open("codes.txt","r")
+discounts = eval(file.read())
+file.close()
+
+Based on the snippet shown, nums[j] is 9 and this is stored in
+temp
+2) nums[j] and nums[j+1] both equal 1. The bubble sort has not
+worked. Line 18 should be nums[j+1] = temp. This ensures the
+original value of nums[j] i.e. 9 is stored in temp and then copied to
+nums[j]. The code as it stands first replaces nums[j] with 1 then
+replaces the value of nums[j+1] with the updated value of nums[j].
+3) Selection
+4) Any two from: temp, j and swapped
+5) Insertion sort or merge sort
+6) It uses little memory and is not processor intensive. If the array
+to be sorted is short or mostly already sorted, a bubble sort will be
+quicker to program and potentially quicker to run than an insertion
+sort or merge sort. These other sorting algorithms scal better i.e.
+they are suited for larger data sets. Also, the bubble sort is more efficient  in certain cases.

@@ -1,0 +1,18 @@
+functions are not called
+
+to set the initial score to 0.
+
+line 30
+
+list
+
+2
+
+3
+
+not present
+
+floor divison
+
+
+integer
